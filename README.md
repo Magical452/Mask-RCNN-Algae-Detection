@@ -9,7 +9,7 @@ Recommended to train a new model starting from pre-trained COCO weights on anaco
 python algae.py train --dataset=<where you put the dataset> --weights=coco
 ```
 
-Use `get_csv_of_images.ipynb` to check model and get the csv file of "IDs", boundaries, and center point. Change 
+Use `get_csv_of_images.ipynb` to check model and get the csv file of "IDs", boundaries, and center point.
 
 Apply coloring effect on an image and get csv
 ```
@@ -17,4 +17,5 @@ python3 algae.py splash --weights=<where your preferred weights are> --image=<fi
 ```
 
 `algae.py` uses 1 epoch with 100 steps per epoch (Change this for better accuracy)
+
 
