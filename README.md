@@ -4,6 +4,8 @@ Specifications used:
 Python 3.10.12
 Tensorflow 2.14.0
 
+Create a new folder called "logs" in the parent folder
+
 Recommended to train a new model starting from pre-trained COCO weights on anaconda:
 ```
 python algae.py train --dataset=<where you put the dataset> --weights=coco
@@ -17,5 +19,6 @@ python3 algae.py splash --weights=<where your preferred weights are> --image=<fi
 ```
 
 `algae.py` uses 1 epoch with 100 steps per epoch (Change this for better accuracy)
+
 
 
