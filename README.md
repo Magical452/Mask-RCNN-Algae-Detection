@@ -4,7 +4,7 @@ Specifications used:
 Python 3.10.12
 Tensorflow 2.14.0
 
-Create a new folder called "logs" in the parent folder
+Create a new folder named "logs" in the same folder as the README. Then run it with the commands below because weights have not been provided.
 
 Recommended to train a new model starting from pre-trained COCO weights on anaconda:
 ```
@@ -19,6 +19,7 @@ python3 algae.py splash --weights=<where your preferred weights are> --image=<fi
 ```
 
 `algae.py` uses 1 epoch with 100 steps per epoch (Change this for better accuracy)
+
 
 
 
